@@ -4,8 +4,6 @@ import streamlit as st
 if "Posts" not in st.session_state:
     st.session_state.posts = []
 
-st.session_state.posts.append(post_content)
-
 #App title
 st.title("Simple twitter-style App")
 
